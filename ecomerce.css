@@ -1,0 +1,129 @@
+            *{
+                margin: 0;
+                box-sizing: border-box;
+                padding: 0;
+            }
+
+
+        nav {
+            background-color: yellowgreen;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: rgb(91, 223, 14);
+            color: rgb(109, 146, 36);
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px;
+            width: 300px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .search-container {
+            float: right;
+            margin-top: -4px;
+        }
+
+        .search-container input[type="text"] {
+            padding: 10px;
+            margin-top: 8px;
+            margin-right: 10px;
+            border: none;
+            font-size: 16px;
+        }
+
+        .search-container button {
+            padding: 10px;
+            margin-top: 8px;
+            background: #ddd;
+            border: none;
+            cursor: pointer;
+        }
+
+        
+        .login-container {
+            float: right;
+        }
+
+        .login-container a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .login-container a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightyellow;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px;
+            width: 300px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
